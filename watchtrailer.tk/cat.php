@@ -22,7 +22,7 @@ if($_GET['x']==$info['janr'])
 elseif($_GET['x']=='popular')
 {echo$sec="En popular kinolar";}
 elseif(!empty($_GET['x']))
-{echo$sec="Siz ".$_GET['x']." kateqoriyasi bolumundesiniz";}
+{}
 else
 {echo'<meta http-equiv="refresh" content="0; URL=index.php">';}
 }
@@ -32,8 +32,8 @@ else
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Anime Template">
-    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="description" content="WatchTrailer">
+    <meta name="keywords" content="Watch, Trailer, Action, Film">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WatchTraliler Categories</title>
@@ -66,8 +66,8 @@ else
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                        <a href="./index.php">
+                            <img src="img/watchtrailer3.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -94,8 +94,8 @@ else
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
-                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                        <a href="./categories.html">Categories</a>
+                        <a href="./index.php"><i class="fa fa-home"></i> Home</a>
+                        <a href="#">Categories</a>
                         <span><?=$sec="".$_GET['x'].""?></span>
                     </div>
                 </div>

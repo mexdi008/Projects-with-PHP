@@ -15,7 +15,7 @@
                                         
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Our Blog</a></li>
-                                <li><a href="./contacts.html">Contacts</a></li>
+                                
+                               <!-- <li><a href="./contacts.html">Contacts</a></li> -->
                             </ul>
                         </nav>

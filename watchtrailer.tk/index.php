@@ -6,8 +6,8 @@ $con = mysqli_connect('localhost','htqkzciz_kinoadmin','mf2002_!@','htqkzciz_kin
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Anime Template">
-    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="description" content="WatchTrailer">
+     <meta name="keywords" content="Watch, Trailer, Action, Film">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WATCHTRAILER</title>
@@ -40,8 +40,8 @@ $con = mysqli_connect('localhost','htqkzciz_kinoadmin','mf2002_!@','htqkzciz_kin
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                        <a href="./index.php">
+                            <img src="img/watchtrailer3.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ $con = mysqli_connect('localhost','htqkzciz_kinoadmin','mf2002_!@','htqkzciz_kin
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="https://watchtrailer.tk/cat.php?x=Action" class="primary-btn">View All <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +236,7 @@ $con = mysqli_connect('localhost','htqkzciz_kinoadmin','mf2002_!@','htqkzciz_kin
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="https://watchtrailer.tk/cat.php?x=Animasiya" class="primary-btn">View All <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
