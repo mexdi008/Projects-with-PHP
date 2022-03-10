@@ -1,0 +1,24 @@
+.container{
+	padding: 50px;
+	background-color: ghostwhite;
+}
+.cedvel{
+	background-color: lightgray;
+	padding: 5px;
+}
+
+
+.loqo{
+	border: 1px solid black;
+	height: 40px;
+	width: 100px;
+	overflow: hidden;
+	background: linear-gradient(to left ,grey,white);
+}
+.loqo>input[type="file"]{
+	padding: 5px;
+}
+.bitib{
+	border: 1px solid black;
+	background-color: green;
+}
